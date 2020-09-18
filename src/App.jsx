@@ -5,6 +5,8 @@ import 'font-awesome/css/font-awesome.min.css'
 
 import React from 'react';
 import './App.css';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 import Menu from './components/template/Menu';
 
 //Routas
@@ -16,6 +18,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
+        <div>
+          <MessengerCustomerChat
+          pageId= {process.env.REACT_APP_PAGE_ID}
+          appId= {process.env.REACT_APP_APP_ID} 
+        /></div>
         <Menu></Menu>
         <Router />
       </div>
