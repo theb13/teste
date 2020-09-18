@@ -25,6 +25,7 @@ function App() {
         <MessengerCustomerChat
           pageId={process.env.REACT_APP_PAGE_ID}
           appId={process.env.REACT_APP_APP_ID}
+          language='pt_PT'
         /></div>
     </BrowserRouter>
 
