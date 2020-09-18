@@ -18,14 +18,14 @@ function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <div>
-          <MessengerCustomerChat
-          pageId= {process.env.REACT_APP_PAGE_ID}
-          appId= {process.env.REACT_APP_APP_ID} 
-        /></div>
         <Menu></Menu>
         <Router />
       </div>
+      <div>
+        <MessengerCustomerChat
+          pageId={process.env.REACT_APP_PAGE_ID}
+          appId={process.env.REACT_APP_APP_ID}
+        /></div>
     </BrowserRouter>
 
   );
