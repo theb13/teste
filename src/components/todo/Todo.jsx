@@ -8,7 +8,8 @@ import PageHeader from '../template/PageHeader';
 import TodoForm from './TodoForm';
 import TodoList from './TodoList';
 
-const Url = 'http://localhost:3003/todo'
+const Url = process.env.REACT_APP_API_URL
+
 
 export default class Todo extends Component {
 

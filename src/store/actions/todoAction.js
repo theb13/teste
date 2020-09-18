@@ -1,6 +1,6 @@
 //ajax
 import axios from 'axios'
-const Url = 'http://localhost:3003/todo'
+const Url = process.env.REACT_APP_API_URL
 
 export const search = () => {
     const request = axios.get(Url)
