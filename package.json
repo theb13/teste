@@ -11,7 +11,7 @@
     "redux-promise": "^0.6.0"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
     "react": "^16.13.1",
